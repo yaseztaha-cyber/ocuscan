@@ -1,0 +1,1927 @@
+{
+  "dbVersion": "1.0",
+  "lastReviewed": "2026-09-25",
+  "changes": [
+    "1.0 (2026-09-25): Tiered schema with full bibliographic references, evidence tiers, implementation statuses, and future-research entries."
+  ],
+  "notice": "Educational screening summaries. Not diagnoses. Published study results are labeled as such and are not OcuScan performance. Sources do not imply clinical endorsement of OcuScan.",
+  "references": [
+    {
+      "id": "ueno2024",
+      "authors": "Ueno Y, Oda M, et al.",
+      "title": "Deep learning model for extensive smartphone-based diagnosis and triage of cataracts and multiple corneal diseases",
+      "journal": "British Journal of Ophthalmology",
+      "year": "2024",
+      "volume": "108",
+      "issue": "10",
+      "pages": "",
+      "doi": "10.1136/bjo-2023-324488",
+      "pmid": "38242700",
+      "url": "https://bjo.bmj.com/content/108/10/1406",
+      "category": "ophthalmology",
+      "used_for": "Anterior-segment research framework; corneal and lens module context",
+      "evidence_summary": "Published study result — not OcuScan performance: model trained on slit-lamp images distinguished 36 cataract/corneal diseases in 9 categories (AUC 0.968–0.998); smartphone images used for the testing dataset only.",
+      "access_date": ""
+    },
+    {
+      "id": "taki2024",
+      "authors": "Taki Y, Ueno Y, Oda M, et al.",
+      "title": "Analysis of the performance of the CorneAI for iOS in the classification of corneal diseases and cataracts based on journal photographs",
+      "journal": "Scientific Reports",
+      "year": "2024",
+      "volume": "14",
+      "issue": "",
+      "pages": "15517",
+      "doi": "10.1038/s41598-024-66296-3",
+      "pmid": "38969757",
+      "url": "https://www.nature.com/articles/s41598-024-66296-3",
+      "category": "ophthalmology",
+      "used_for": "Anterior-segment research framework; on-device classification context",
+      "evidence_summary": "Published study result — not OcuScan performance: smartphone app classified journal anterior-segment photographs with top-1 positive predictive value 0.75 and top-3 above 0.80.",
+      "access_date": ""
+    },
+    {
+      "id": "maehara2025",
+      "authors": "Maehara H, Ueno Y, Yamaguchi T, et al.",
+      "title": "Artificial intelligence support improves diagnosis accuracy in anterior segment eye diseases",
+      "journal": "Scientific Reports",
+      "year": "2025",
+      "volume": "15",
+      "issue": "",
+      "pages": "5117",
+      "doi": "10.1038/s41598-025-89768-6",
+      "pmid": "",
+      "url": "https://www.nature.com/articles/s41598-025-89768-6",
+      "category": "ophthalmology",
+      "used_for": "Anterior-segment research framework; clinician-assistance context",
+      "evidence_summary": "Published study result — not OcuScan performance: AI support significantly increased clinician accuracy for several anterior-segment categories; smartphone misclassification examples documented.",
+      "access_date": ""
+    },
+    {
+      "id": "bastawrous2015",
+      "authors": "Bastawrous A, Rono HK, Livingstone IAT, et al.",
+      "title": "Development and Validation of a Smartphone-Based Visual Acuity Test (Peek Acuity) for Clinical Practice and Community-Based Fieldwork",
+      "journal": "JAMA Ophthalmology",
+      "year": "2015",
+      "volume": "133",
+      "issue": "8",
+      "pages": "930-937",
+      "doi": "10.1001/jamaophthalmol.2015.1468",
+      "pmid": "",
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2296911",
+      "category": "vision_testing",
+      "used_for": "Distance visual-acuity test design (tumbling-E, randomization, repeatability expectations)",
+      "evidence_summary": "Published study result — not OcuScan performance: Peek Acuity agreed with ETDRS within 0.07 logMAR with test-retest variability ±0.029 logMAR in Kenyan field settings.",
+      "access_date": ""
+    },
+    {
+      "id": "steren2021",
+      "authors": "Steren BJ, Young B, Chow J",
+      "title": "Visual acuity testing for telehealth using mobile applications",
+      "journal": "JAMA Ophthalmology",
+      "year": "2021",
+      "volume": "139",
+      "issue": "3",
+      "pages": "344-347",
+      "doi": "10.1001/jamaophthalmol.2020.6177",
+      "pmid": "",
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/",
+      "category": "vision_testing",
+      "used_for": "Home/telehealth acuity testing context and calibration warnings",
+      "evidence_summary": "Published study result — not OcuScan performance: home mobile-app acuity tests compared against in-office measurements; supports telehealth use with validation caveats.",
+      "access_date": ""
+    },
+    {
+      "id": "perera2015",
+      "authors": "Perera C, Chakrabarti R, Islam FMA, Crowston J",
+      "title": "The Eye Phone Study: reliability and accuracy of assessing Snellen visual acuity using smartphone technology",
+      "journal": "Eye",
+      "year": "2015",
+      "volume": "29",
+      "issue": "7",
+      "pages": "888-894",
+      "doi": "10.1038/eye.2015.60",
+      "pmid": "",
+      "url": "https://www.nature.com/eye/",
+      "category": "vision_testing",
+      "used_for": "Smartphone acuity reliability context; app-quality variation warning",
+      "evidence_summary": "Published study result — not OcuScan performance: smartphone Snellen assessment evaluated for reliability and accuracy against standard charts.",
+      "access_date": ""
+    },
+    {
+      "id": "tofigh2015",
+      "authors": "Tofigh S, Shortridge E, Elkeeb A, Godley BF",
+      "title": "Effectiveness of a smartphone application for testing near visual acuity",
+      "journal": "Eye",
+      "year": "2015",
+      "volume": "29",
+      "issue": "11",
+      "pages": "1464-1468",
+      "doi": "10.1038/eye.2015.138",
+      "pmid": "",
+      "url": "https://www.nature.com/eye/",
+      "category": "vision_testing",
+      "used_for": "Near-vision screening design",
+      "evidence_summary": "Published study result — not OcuScan performance: smartphone near-acuity app evaluated for effectiveness.",
+      "access_date": ""
+    },
+    {
+      "id": "kingsnorth2016",
+      "authors": "Kingsnorth A, Drew T, Grewal B, Wolffsohn JS",
+      "title": "Mobile app Aston contrast sensitivity test",
+      "journal": "Clinical and Experimental Optometry",
+      "year": "2016",
+      "volume": "99",
+      "issue": "4",
+      "pages": "350-355",
+      "doi": "10.1111/cxo.12362",
+      "pmid": "27291146",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27291146/",
+      "category": "vision_testing",
+      "used_for": "Contrast ladder design; repeatability expectations across devices",
+      "evidence_summary": "Published study result — not OcuScan performance: mobile contrast apps repeatable (near 0.26–0.37 log units) but recorded higher sensitivity than printed tests; device display matters.",
+      "access_date": ""
+    },
+    {
+      "id": "elliott1990",
+      "authors": "Elliott DB, Sanderson K, Conkey A",
+      "title": "The reliability of the Pelli-Robson contrast sensitivity chart",
+      "journal": "Ophthalmic and Physiological Optics",
+      "year": "1990",
+      "volume": "10",
+      "issue": "1",
+      "pages": "21-24",
+      "doi": "",
+      "pmid": "2330208",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2330208/",
+      "category": "vision_testing",
+      "used_for": "Contrast reference standard and repeatability benchmark (±0.15 log units)",
+      "evidence_summary": "Published study result — not OcuScan performance: Pelli-Robson scores repeatable within ±0.15 log units; significant change is ±0.30 log units.",
+      "access_date": ""
+    },
+    {
+      "id": "ozgur2018",
+      "authors": "Ozgur OK, Emborgo TS, Vieyra MB, Huselid RF, Banik R",
+      "title": "Validity and Acceptance of Color Vision Testing on Smartphones",
+      "journal": "Journal of Neuro-Ophthalmology",
+      "year": "2018",
+      "volume": "38",
+      "issue": "1",
+      "pages": "13-16",
+      "doi": "10.1097/WNO.0000000000000637",
+      "pmid": "29438263",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29438263/",
+      "category": "vision_testing",
+      "used_for": "Color test design; agreement variation in pathology warns against overclaiming",
+      "evidence_summary": "Published study result — not OcuScan performance: smartphone color test agreed with Ishihara in controls (bias −0.01) but wider limits in pathology (bias −0.50); authors call for further testing.",
+      "access_date": ""
+    },
+    {
+      "id": "zhao2019",
+      "authors": "Zhao J, Fliotsos M, Ighani M, Eghrari AO",
+      "title": "Comparison of a Smartphone Application with Ishihara Pseudoisochromatic Plate for Testing Colour Vision",
+      "journal": "Neuro-Ophthalmology",
+      "year": "2019",
+      "volume": "43",
+      "issue": "4",
+      "pages": "235-239",
+      "doi": "10.1080/01658107.2018.1529187",
+      "pmid": "",
+      "url": "https://doi.org/10.1080/01658107.2018.1529187",
+      "category": "vision_testing",
+      "used_for": "Color test display-dependence limitation; same-modality repeat recommendation",
+      "evidence_summary": "Published study result — not OcuScan performance: app plates differ from Ishihara plates; screen size, resolution, brightness, and saturation affect results; use one modality consistently.",
+      "access_date": ""
+    },
+    {
+      "id": "neice2021",
+      "authors": "Neice AE, Fowler C, Jaffe RA, Brock-Utne JG",
+      "title": "Feasibility study of a smartphone pupillometer and evaluation of its accuracy",
+      "journal": "Journal of Clinical Monitoring and Computing",
+      "year": "2021",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1007/s10877-020-00592-x",
+      "pmid": "32951188",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32951188/",
+      "category": "ophthalmology",
+      "used_for": "Pupil measurement feasibility and RGB-camera limits; frame-rejection rationale",
+      "evidence_summary": "Published study result — not OcuScan performance: RGB smartphone pupillometry agreed with a commercial device when the pupil was found, but detection failed in nearly a quarter of scans.",
+      "access_date": ""
+    },
+    {
+      "id": "barry2023",
+      "authors": "Barry C, Wang E",
+      "title": "Racially fair pupillometry measurements for RGB smartphone cameras using the far red spectrum",
+      "journal": "Scientific Reports",
+      "year": "2023",
+      "volume": "13",
+      "issue": "",
+      "pages": "13841",
+      "doi": "10.1038/s41598-023-40796-0",
+      "pmid": "37620445",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37620445/",
+      "category": "ophthalmology",
+      "used_for": "Fairness: eye-color and skin-tone limits of RGB pupil measurement",
+      "evidence_summary": "Published study result — not OcuScan performance: far-red spectrum approach reduced racial disparity in RGB smartphone pupillometry; standard RGB pipelines carry bias risk.",
+      "access_date": ""
+    },
+    {
+      "id": "taylor2017",
+      "authors": "Taylor JA, Stout JW, de Greef L, Goel M, Patel S, Chung EK, et al.",
+      "title": "Use of a Smartphone App to Assess Neonatal Jaundice",
+      "journal": "Pediatrics",
+      "year": "2017",
+      "volume": "140",
+      "issue": "3",
+      "pages": "e20170312",
+      "doi": "10.1542/peds.2017-0312",
+      "pmid": "",
+      "url": "https://publications.aap.org/pediatrics/article/140/3/e20170312/38386/",
+      "category": "ophthalmology",
+      "used_for": "Color-calibration precedent (calibration card, multi-tone cohort); modality limits for scleral screening",
+      "evidence_summary": "Published study result — not OcuScan performance: BiliCam correlated r=0.91 with serum bilirubin in newborn skin using a calibration card (sensitivities 84.6–100%). Neonatal skin, not adult sclera.",
+      "access_date": ""
+    },
+    {
+      "id": "aune2020",
+      "authors": "Aune A, Vartdal G, Bergseng H, Randeberg LL, Darj E",
+      "title": "Bilirubin estimates from smartphone images of newborn infants skin correlated highly to serum bilirubin levels",
+      "journal": "Acta Paediatrica",
+      "year": "2020",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1111/apa.15287",
+      "pmid": "",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/apa.15287",
+      "category": "ophthalmology",
+      "used_for": "Color-calibration precedent; illumination-standardization requirement",
+      "evidence_summary": "Published study result — not OcuScan performance: colour-calibrated smartphone images correlated r=0.84 with serum bilirubin; incomplete image sets caused failures in 36 infants.",
+      "access_date": ""
+    },
+    {
+      "id": "yoonesi2025",
+      "authors": "Yoonesi S, et al.",
+      "title": "Facial expression deep learning algorithms in the detection of neurological disorders: a systematic review and meta-analysis",
+      "journal": "BioMedical Engineering OnLine",
+      "year": "2025",
+      "volume": "24",
+      "issue": "",
+      "pages": "64",
+      "doi": "10.1186/s12938-025-01396-3",
+      "pmid": "40405223",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12096636/",
+      "category": "neurology",
+      "used_for": "Facial-movement research rationale; heterogeneity and standardization warnings",
+      "evidence_summary": "Published study result — not OcuScan performance: pooled accuracy 89.25% across 24 studies with very high heterogeneity (I² 99.11%); authors require dataset standardization and robustness work.",
+      "access_date": ""
+    },
+    {
+      "id": "taeger2021",
+      "authors": "Taeger J, Bischoff S, Hagen R, Rak K",
+      "title": "Utilization of Smartphone Depth Mapping Cameras for App-Based Grading of Facial Movement Disorders: Development and Feasibility Study",
+      "journal": "JMIR mHealth and uHealth",
+      "year": "2021",
+      "volume": "9",
+      "issue": "1",
+      "pages": "e19346",
+      "doi": "10.2196/19346",
+      "pmid": "33496670",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7872839/",
+      "category": "facial_analysis",
+      "used_for": "Guided-expression protocol (brow, eye closure, mouth); repeatability and angle-robustness expectations",
+      "evidence_summary": "Published study result — not OcuScan performance: TrueDepth-based asymmetry index reproducible in 4 healthy subjects; angle errors documented; clinical validity explicitly left to a future prospective study.",
+      "access_date": ""
+    },
+    {
+      "id": "oliveira2025",
+      "authors": "Oliveira G, et al.",
+      "title": "Facial Expression Analysis in Parkinsons Disease Using Machine Learning: A Review",
+      "journal": "ACM Computing Surveys",
+      "year": "2025",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1145/3716818",
+      "pmid": "",
+      "url": "https://dl.acm.org/doi/10.1145/3716818",
+      "category": "facial_analysis",
+      "used_for": "Facial-analysis research context; camera/smartphone feasibility note",
+      "evidence_summary": "Published study result — not OcuScan performance: review finds facial expressions a potential marker with camera and smartphone capture feasible but requiring validation.",
+      "access_date": ""
+    },
+    {
+      "id": "maxin2023",
+      "authors": "Maxin AJ, Gulek BG, Lee C, Lim D, Mariakakis A, Levitt MR, McGrath LB",
+      "title": "Validation of a Smartphone Pupillometry Application in Diagnosing Severe Traumatic Brain Injury",
+      "journal": "Journal of Neurotrauma",
+      "year": "2023",
+      "volume": "40",
+      "issue": "19-20",
+      "pages": "2118-2125",
+      "doi": "10.1089/neu.2022.0516",
+      "pmid": "37464770",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37464770/",
+      "category": "neurology",
+      "used_for": "Pupil-response track: PLR-curve parameters are research-measurable with specialized apps; not attempted by OcuScan",
+      "evidence_summary": "Published study result — not OcuScan performance: PupilScreen PLR parameters distinguished cohorts versus a clinical pupillometer in a controlled study; dedicated hardware and protocol required.",
+      "access_date": ""
+    },
+    {
+      "id": "savoy2024",
+      "authors": "Savoy FM, Rao DP, Toh JK, et al.",
+      "title": "Empowering Portable Age-Related Macular Degeneration Screening: Evaluation of a Deep Learning Algorithm for a Smartphone Camera Fundus",
+      "journal": "BMJ Open",
+      "year": "2024",
+      "volume": "14",
+      "issue": "",
+      "pages": "e081398",
+      "doi": "10.1136/bmjopen-2023-081398",
+      "pmid": "",
+      "url": "https://bmjopen.bmj.com/content/14/9/e081398",
+      "category": "retinal_imaging",
+      "used_for": "Retinal track: retinal screening needs a fundus camera attachment, never the selfie camera",
+      "evidence_summary": "Published study result — not OcuScan performance: deep-learning AMD screening evaluated on smartphone fundus-camera images (specialized optical hardware).",
+      "access_date": ""
+    },
+    {
+      "id": "peekretina2016",
+      "authors": "Bastawrous A, Giardini ME, Bolster NM, et al.",
+      "title": "Clinical Validation of a Smartphone-Based Adapter for Optic Disc Imaging in Kenya",
+      "journal": "JAMA Ophthalmology",
+      "year": "2016",
+      "volume": "134",
+      "issue": "2",
+      "pages": "151-158",
+      "doi": "10.1001/jamaophthalmol.2015.4625",
+      "pmid": "",
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2473362",
+      "category": "retinal_imaging",
+      "used_for": "Retinal track: optical adapter requirement and field-validation precedent",
+      "evidence_summary": "Published study result — not OcuScan performance: 3D-printed smartphone adapter enabled optic-disc imaging validated against a desktop retinal camera in Kenya.",
+      "access_date": ""
+    },
+    {
+      "id": "arnold2018",
+      "authors": "Arnold RW, Arnold AW, Hunt-Smith T, Grendahl R, Winkle RK",
+      "title": "The Positive Predictive Value of Smartphone Photoscreening in Pediatric Practices",
+      "journal": "Journal of Pediatric Ophthalmology and Strabismus",
+      "year": "2018",
+      "volume": "55",
+      "issue": "6",
+      "pages": "393-396",
+      "doi": "10.3928/01913913-20180710-01",
+      "pmid": "",
+      "url": "https://doi.org/10.3928/01913913-20180710-01",
+      "category": "ophthalmology",
+      "used_for": "Eye-alignment screening context; referral-oriented (not diagnostic) framing",
+      "evidence_summary": "Published study result — not OcuScan performance: smartphone photoscreening PPV 68–77% for amblyopia risk factors; authors frame outcomes as referrals.",
+      "access_date": ""
+    },
+    {
+      "id": "nei-cataract",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Cataracts",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "category": "ophthalmology",
+      "used_for": "Patient-education wording for lens findings; diagnosis requires dilated examination",
+      "evidence_summary": "Authoritative overview: cataract symptoms, risk factors, and surgical treatment; diagnosis by dilated eye examination.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "nei-dryeye",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Dry Eye",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "category": "ophthalmology",
+      "used_for": "Blink/redness education wording; multifactorial causes",
+      "evidence_summary": "Authoritative overview: dry-eye symptoms, causes, and examination; blinking behavior alone does not establish it.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "nei-color",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Color Blindness",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/color-blindness",
+      "category": "ophthalmology",
+      "used_for": "Color-vision education wording; formal testing by eye professionals",
+      "evidence_summary": "Authoritative overview: types and inheritance of color vision deficiency; diagnosis by color vision testing.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "nei-glaucoma",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Glaucoma",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/glaucoma",
+      "category": "ophthalmology",
+      "used_for": "Peripheral-field education wording; perimetry performed by professionals",
+      "evidence_summary": "Authoritative overview: glaucoma damages the optic nerve with early peripheral vision loss; detection by dilated examination with visual-field testing.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "nei-amd",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Age-Related Macular Degeneration",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "category": "ophthalmology",
+      "used_for": "Central-vision education wording; Amsler grid is a monitoring aid, not a diagnosis",
+      "evidence_summary": "Authoritative overview: AMD affects central vision; monitoring and diagnosis involve professional examination and imaging.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "nei-dr",
+      "study_type": "overview",
+      "authors": "National Eye Institute",
+      "title": "Diabetic Retinopathy",
+      "journal": "NEI Eye Health Information",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/diabetic-retinopathy",
+      "category": "retinal_imaging",
+      "used_for": "Retinal track context: retinal disease needs retinal imaging and examination",
+      "evidence_summary": "Authoritative overview: diabetic retinopathy affects retinal vessels and is detected by retinal examination and imaging.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "eyewiki-anisocoria",
+      "study_type": "overview",
+      "authors": "American Academy of Ophthalmology (EyeWiki contributors)",
+      "title": "Anisocoria",
+      "journal": "EyeWiki",
+      "year": "2025",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://eyewiki.aao.org/Anisocoria",
+      "category": "ophthalmology",
+      "used_for": "Pupil-asymmetry education: physiologic anisocoria affects up to 20% of people; workup is clinical",
+      "evidence_summary": "Authoritative overview: unequal pupils range from benign physiologic difference (≤1 mm) to emergencies; evaluation is clinical.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "eyewiki-nystagmus",
+      "study_type": "overview",
+      "authors": "American Academy of Ophthalmology (EyeWiki contributors)",
+      "title": "Nystagmus",
+      "journal": "EyeWiki",
+      "year": "2025",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://eyewiki.org/Nystagmus",
+      "category": "ophthalmology",
+      "used_for": "Eye-movement education wording; many types and causes",
+      "evidence_summary": "Authoritative overview: nystagmus waveforms, types, and associated conditions; assessment is specialist work.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "eyewiki-pterygium",
+      "study_type": "overview",
+      "authors": "American Academy of Ophthalmology (EyeWiki contributors)",
+      "title": "Pterygium",
+      "journal": "EyeWiki",
+      "year": "2025",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://eyewiki.aao.org/Pterygium",
+      "category": "ophthalmology",
+      "used_for": "Surface-growth education wording; slit-lamp appearance basis",
+      "evidence_summary": "Authoritative overview: pterygium growth pattern, risk factors, and management; diagnosed by examination.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "aoa-ptosis",
+      "study_type": "overview",
+      "authors": "American Optometric Association",
+      "title": "Ptosis",
+      "journal": "AOA Eye and Vision Conditions",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/ptosis",
+      "category": "ophthalmology",
+      "used_for": "Eyelid education wording; causes and examination",
+      "evidence_summary": "Authoritative overview: drooping-eyelid causes and evaluation.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "aoa-strabismus",
+      "study_type": "overview",
+      "authors": "American Optometric Association",
+      "title": "Strabismus",
+      "journal": "AOA Eye and Vision Conditions",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/strabismus",
+      "category": "ophthalmology",
+      "used_for": "Eye-alignment education wording; cover testing by professionals",
+      "evidence_summary": "Authoritative overview: misalignment types and professional testing including cover tests.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "aapos-strabismus",
+      "study_type": "overview",
+      "authors": "American Association for Pediatric Ophthalmology and Strabismus",
+      "title": "Strabismus — patient resources",
+      "journal": "AAPOS",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://aapos.org/",
+      "category": "ophthalmology",
+      "used_for": "Pediatric alignment context and referral framing",
+      "evidence_summary": "Authoritative organization resources on childhood misalignment and its assessment.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "medlineplus-jaundice",
+      "study_type": "overview",
+      "authors": "U.S. National Library of Medicine",
+      "title": "Jaundice — MedlinePlus",
+      "journal": "MedlinePlus",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://medlineplus.gov/",
+      "category": "ophthalmology",
+      "used_for": "Scleral-color education: yellowing has many causes; workup is laboratory and clinical",
+      "evidence_summary": "Authoritative overview: jaundice causes and evaluation; appearance alone never establishes the cause.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "cdc-vision",
+      "study_type": "overview",
+      "authors": "U.S. Centers for Disease Control and Prevention",
+      "title": "About Common Eye Disorders and Diseases",
+      "journal": "CDC Vision and Eye Health",
+      "year": "2025",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.cdc.gov/vision-health/about-eye-disorders/index.html",
+      "category": "ophthalmology",
+      "used_for": "Published-vs-OcuScan comparisons; burden-of-disease context without app claims",
+      "evidence_summary": "Authoritative overview: AMD, cataract, diabetic retinopathy, and glaucoma as leading causes of vision loss; examinations matter.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "who2021",
+      "study_type": "guidance",
+      "authors": "World Health Organization",
+      "title": "Ethics and governance of artificial intelligence for health: WHO guidance",
+      "journal": "WHO",
+      "year": "2021",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "category": "ai_safety",
+      "used_for": "Safety principles: autonomy, transparency, accountability, inclusiveness and equity, continuous assessment",
+      "evidence_summary": "Guidance: six ethical principles for health AI including transparency, accountability, and inclusiveness/equity; ISBN 978-92-4-002920-0.",
+      "access_date": ""
+    },
+    {
+      "id": "fda-cds-2022",
+      "study_type": "guidance",
+      "authors": "U.S. Food and Drug Administration",
+      "title": "Clinical Decision Support Software — Guidance for Industry and FDA Staff",
+      "journal": "FDA",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+      "category": "regulatory",
+      "used_for": "Intended-use discipline: functionality and intended use drive regulatory treatment; keep language conservative",
+      "evidence_summary": "Guidance: final guidance announced 28 September 2022 (87 FR 58810); software functions receive different treatment by functionality and intended use.",
+      "access_date": ""
+    },
+    {
+      "id": "gdpr2016",
+      "study_type": "regulation",
+      "authors": "European Parliament and Council",
+      "title": "Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data (General Data Protection Regulation)",
+      "journal": "Official Journal of the European Union",
+      "year": "2016",
+      "volume": "L 119",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679",
+      "category": "privacy",
+      "used_for": "Privacy principles: data minimization, purpose limitation, deletion rights",
+      "evidence_summary": "Regulation: biometric and health data protections; rights to erasure and data minimization.",
+      "access_date": ""
+    },
+    {
+      "id": "nist-pf",
+      "study_type": "framework",
+      "authors": "National Institute of Standards and Technology",
+      "title": "NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0",
+      "journal": "NIST",
+      "year": "2020",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "url": "https://www.nist.gov/privacy-framework",
+      "category": "privacy",
+      "used_for": "Privacy engineering: identify, govern, control, communicate, protect functions",
+      "evidence_summary": "Framework: voluntary privacy-risk management organized around five functions; supports local-first design.",
+      "access_date": ""
+    }
+  ],
+  "entries": [
+    {
+      "id": "facial_asymmetry",
+      "finding": "facial_asymmetry",
+      "name": "Facial movement asymmetry",
+      "nameAr": "عدم تناظر حركة الوجه",
+      "category": "facial",
+      "observable_finding": "Observable left/right difference in facial movement amplitude during guided expressions (eyebrow raise, eye closure, smile, cheek puff).",
+      "description": "Observable left/right difference in facial movement amplitude during guided expressions (eyebrow raise, eye closure, smile, cheek puff).",
+      "screening_method": "Guided-expression capture with landmark tracking; per-region amplitude comparison; repeatability across sessions.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Movement patterns sometimes confused with nerve conditions — the app cannot distinguish causes",
+        "Prior facial injury or surgery",
+        "Dental or muscular asymmetry",
+        "Normal variation"
+      ],
+      "cannot_conclude": [
+        "The underlying cause",
+        "Whether a neurological condition is present",
+        "Nerve function level"
+      ],
+      "limitations": [
+        "Front camera cannot assess nerve function directly",
+        "Head rotation mimics asymmetry",
+        "Single-session result may vary"
+      ],
+      "action": "Repeat the test facing the camera directly. Seek urgent care for sudden facial weakness, especially with speech changes, arm weakness, or vision changes. Otherwise consider professional evaluation if asymmetry is new or persistent.",
+      "recommended_action": "Repeat the test facing the camera directly. Seek urgent care for sudden facial weakness, especially with speech changes, arm weakness, or vision changes. Otherwise consider professional evaluation if asymmetry is new or persistent.",
+      "emergency_signs": [
+        "Sudden facial droop with trouble speaking",
+        "Arm weakness or severe headache with facial weakness"
+      ],
+      "emergency_flags": [
+        "Sudden facial droop with trouble speaking",
+        "Arm weakness or severe headache with facial weakness"
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ],
+      "reference_ids": [
+        "yoonesi2025",
+        "taeger2021"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "eyelid_asymmetry",
+      "finding": "eyelid_asymmetry",
+      "name": "Eyelid position asymmetry",
+      "nameAr": "عدم تناظر الجفن",
+      "category": "ocular",
+      "observable_finding": "Relative difference in visible upper-eyelid opening between eyes estimated from landmarks.",
+      "description": "Relative difference in visible upper-eyelid opening between eyes estimated from landmarks.",
+      "screening_method": "Landmark-based eyelid-opening comparison in straight-ahead gaze.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Eyelid muscle or nerve variation",
+        "Prior eye surgery or injury",
+        "Normal variation",
+        "Fatigue or swelling"
+      ],
+      "cannot_conclude": [
+        "Whether ptosis is present",
+        "The underlying cause"
+      ],
+      "limitations": [
+        "Validation evidence for this landmark measurement is limited",
+        "Not a diagnosis of ptosis",
+        "Gaze angle and brow position affect measurement",
+        "Glasses and shadows reduce reliability"
+      ],
+      "action": "Repeat with eyes looking straight ahead in even lighting. Consider professional evaluation if asymmetry is new, persistent, or affects vision.",
+      "recommended_action": "Repeat with eyes looking straight ahead in even lighting. Consider professional evaluation if asymmetry is new, persistent, or affects vision.",
+      "emergency_signs": [
+        "Sudden double vision with drooping eyelid",
+        "Eyelid swelling with severe pain or fever"
+      ],
+      "emergency_flags": [
+        "Sudden double vision with drooping eyelid",
+        "Eyelid swelling with severe pain or fever"
+      ],
+      "references": [
+        "aoa-ptosis"
+      ],
+      "reference_ids": [
+        "aoa-ptosis"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "eye_alignment",
+      "finding": "eye_alignment",
+      "name": "Eye alignment difference",
+      "nameAr": "اختلاف محاذاة العينين",
+      "category": "ocular",
+      "observable_finding": "Estimated difference in eye position or gaze-direction change during fixation and cover/uncover sequence.",
+      "description": "Estimated difference in eye position or gaze-direction change during fixation and cover/uncover sequence.",
+      "screening_method": "Fixation tracking with guided cover/uncover sequence; referral-oriented outcome.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Eye muscle balance variation",
+        "Uncorrected refractive error",
+        "Normal phoria",
+        "Measurement noise"
+      ],
+      "cannot_conclude": [
+        "Whether strabismus is present",
+        "The angle of deviation",
+        "The underlying cause"
+      ],
+      "limitations": [
+        "Smartphone tracking is approximate",
+        "Cannot replace cover testing by a clinician",
+        "Head movement confounds results"
+      ],
+      "action": "Repeat the guided cover test. Consider professional evaluation if misalignment is persistent or with double vision.",
+      "recommended_action": "Repeat the guided cover test. Consider professional evaluation if misalignment is persistent or with double vision.",
+      "emergency_signs": [
+        "Sudden new double vision",
+        "Eye misalignment after head trauma"
+      ],
+      "emergency_flags": [
+        "Sudden new double vision",
+        "Eye misalignment after head trauma"
+      ],
+      "references": [
+        "arnold2018",
+        "aoa-strabismus",
+        "aapos-strabismus"
+      ],
+      "reference_ids": [
+        "arnold2018",
+        "aoa-strabismus",
+        "aapos-strabismus"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "pupil_asymmetry",
+      "finding": "pupil_asymmetry",
+      "name": "Pupil-size asymmetry",
+      "nameAr": "عدم تساوي حدقتي العينين",
+      "category": "ocular",
+      "observable_finding": "Relative difference in visible pupil size between eyes, averaged over multiple frames.",
+      "description": "Relative difference in visible pupil size between eyes, averaged over multiple frames.",
+      "screening_method": "Multi-frame relative asymmetry index; invalid frames discarded with recorded reasons.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Physiologic anisocoria",
+        "Lighting or viewing-angle artifact",
+        "Medication effects",
+        "Prior eye injury or surgery"
+      ],
+      "cannot_conclude": [
+        "Millimeter diameters",
+        "The underlying cause"
+      ],
+      "limitations": [
+        "Millimeter diameters are NOT reported without physical calibration",
+        "Reflections and partial occlusion invalidate frames",
+        "Single frames are never used alone",
+        "RGB detection varies with eye color and lighting"
+      ],
+      "action": "Repeat under stable, even lighting. Seek prompt evaluation if size difference is new, large, persistent, or with vision changes, headache, or drooping eyelid.",
+      "recommended_action": "Repeat under stable, even lighting. Seek prompt evaluation if size difference is new, large, persistent, or with vision changes, headache, or drooping eyelid.",
+      "emergency_signs": [
+        "Sudden unequal pupils with vision change, severe headache, or injury"
+      ],
+      "emergency_flags": [
+        "Sudden unequal pupils with vision change, severe headache, or injury"
+      ],
+      "references": [
+        "neice2021",
+        "barry2023",
+        "eyewiki-anisocoria"
+      ],
+      "reference_ids": [
+        "neice2021",
+        "barry2023",
+        "eyewiki-anisocoria"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "pupil_response",
+      "finding": "pupil_response",
+      "name": "Pupil light-response pattern",
+      "nameAr": "استجابة الحدقة للضوء",
+      "category": "ocular",
+      "observable_finding": "Relative temporal change in pupil appearance during a controlled safe light-exposure step. Flashlight steps are disabled unless exposure is reproducible and safe.",
+      "description": "Relative temporal change in pupil appearance during a controlled safe light-exposure step. Flashlight steps are disabled unless exposure is reproducible and safe.",
+      "screening_method": "Time-series response analysis; module self-disables without a safe reproducible stimulus.",
+      "required_hardware": [
+        "Smartphone front camera",
+        "Controlled safe light stimulus (not present in this build)"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "EXPERIMENTAL",
+      "possible_associations": [
+        "Normal variation",
+        "Medication effects",
+        "Measurement artifact"
+      ],
+      "cannot_conclude": [
+        "Any neurological cause",
+        "Response curves without calibrated stimulus"
+      ],
+      "limitations": [
+        "Phone flash is not a controlled clinical light source",
+        "Module disabled when safety or reproducibility cannot be assured"
+      ],
+      "action": "If unavailable, treat as unable-to-assess. Do not attempt bright-light self-testing.",
+      "recommended_action": "If unavailable, treat as unable-to-assess. Do not attempt bright-light self-testing.",
+      "emergency_signs": [
+        "Pupil changes with sudden vision loss or severe headache"
+      ],
+      "emergency_flags": [
+        "Pupil changes with sudden vision loss or severe headache"
+      ],
+      "references": [
+        "maxin2023",
+        "eyewiki-anisocoria"
+      ],
+      "reference_ids": [
+        "maxin2023",
+        "eyewiki-anisocoria"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "ocular_surface_growth",
+      "finding": "ocular_surface_growth",
+      "name": "Visible ocular-surface growth",
+      "nameAr": "نمو ظاهر على سطح العين",
+      "category": "ocular",
+      "observable_finding": "Visible fleshy or triangular region extending toward the cornea in the captured image.",
+      "description": "Visible fleshy or triangular region extending toward the cornea in the captured image.",
+      "screening_method": "Close-up surface imaging with conservative appearance thresholds; highlighted region shown to the user.",
+      "required_hardware": [
+        "Smartphone camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "EXPERIMENTAL",
+      "possible_associations": [
+        "Growth-like appearance sometimes confused with pterygium or pinguecula — the app cannot distinguish",
+        "Scar or artifact"
+      ],
+      "cannot_conclude": [
+        "Whether pterygium is present",
+        "Severity grade"
+      ],
+      "limitations": [
+        "Experimental research module — not clinically validated",
+        "Cannot grade severity without validated labels",
+        "Image resolution limits surface detail",
+        "Cannot establish a diagnosis"
+      ],
+      "action": "Review the highlighted region. Consider professional evaluation, especially with irritation, redness, or vision change.",
+      "recommended_action": "Review the highlighted region. Consider professional evaluation, especially with irritation, redness, or vision change.",
+      "emergency_signs": [
+        "Sudden vision loss",
+        "Severe eye pain or chemical exposure"
+      ],
+      "emergency_flags": [
+        "Sudden vision loss",
+        "Severe eye pain or chemical exposure"
+      ],
+      "references": [
+        "eyewiki-pterygium"
+      ],
+      "reference_ids": [
+        "eyewiki-pterygium"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "ocular_redness",
+      "finding": "ocular_redness",
+      "name": "Ocular redness",
+      "nameAr": "احمرار العين",
+      "category": "ocular",
+      "observable_finding": "Increased redness of the visible scleral region and its distribution.",
+      "description": "Increased redness of the visible scleral region and its distribution.",
+      "screening_method": "Scleral-region color analysis in RGB/HSV/Lab under neutral lighting.",
+      "required_hardware": [
+        "Smartphone camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Irritation",
+        "Dryness",
+        "Allergy",
+        "Infection",
+        "Trauma",
+        "Other conditions"
+      ],
+      "cannot_conclude": [
+        "The cause of redness"
+      ],
+      "limitations": [
+        "Validation evidence for phone-based redness grading is limited",
+        "Redness alone cannot identify a cause",
+        "Lighting and camera white balance affect color"
+      ],
+      "action": "Avoid self-diagnosing the cause. Seek prompt care for pain, light sensitivity, vision change, discharge, injury, or chemical exposure.",
+      "recommended_action": "Avoid self-diagnosing the cause. Seek prompt care for pain, light sensitivity, vision change, discharge, injury, or chemical exposure.",
+      "emergency_signs": [
+        "Severe eye pain",
+        "Vision change with redness",
+        "Chemical splash"
+      ],
+      "emergency_flags": [
+        "Severe eye pain",
+        "Vision change with redness",
+        "Chemical splash"
+      ],
+      "references": [
+        "nei-dryeye"
+      ],
+      "reference_ids": [
+        "nei-dryeye"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "scleral_color",
+      "finding": "scleral_color",
+      "name": "Scleral yellow discoloration",
+      "nameAr": "اصفرار بياض العين",
+      "category": "ocular",
+      "observable_finding": "Yellow discoloration of the visible sclera under lighting-controlled capture.",
+      "description": "Yellow discoloration of the visible sclera under lighting-controlled capture.",
+      "screening_method": "Calibrated scleral color comparison; failed calibration forces unable-to-assess.",
+      "required_hardware": [
+        "Smartphone camera",
+        "Neutral-white lighting"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Jaundice has multiple possible causes",
+        "Lighting artifact"
+      ],
+      "cannot_conclude": [
+        "Liver function",
+        "Bilirubin level",
+        "The underlying cause"
+      ],
+      "limitations": [
+        "Neonatal skin studies do not transfer to adult sclera",
+        "Requires neutral-white lighting calibration",
+        "Returns unable-to-assess when calibration fails",
+        "Cannot diagnose liver or blood conditions"
+      ],
+      "action": "Repeat only under neutral lighting after calibration. Seek medical evaluation for persistent yellowing, especially with dark urine, pale stools, or abdominal symptoms.",
+      "recommended_action": "Repeat only under neutral lighting after calibration. Seek medical evaluation for persistent yellowing, especially with dark urine, pale stools, or abdominal symptoms.",
+      "emergency_signs": [
+        "Yellowing with confusion, severe abdominal pain, or vomiting blood"
+      ],
+      "emergency_flags": [
+        "Yellowing with confusion, severe abdominal pain, or vomiting blood"
+      ],
+      "references": [
+        "taylor2017",
+        "aune2020",
+        "medlineplus-jaundice"
+      ],
+      "reference_ids": [
+        "taylor2017",
+        "aune2020",
+        "medlineplus-jaundice"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "corneal_opacity",
+      "finding": "corneal_opacity",
+      "name": "Visible corneal opacity",
+      "nameAr": "عتامة القرنية الظاهرة",
+      "category": "ocular",
+      "observable_finding": "Visible cloudy or opaque region on the corneal surface in the captured image.",
+      "description": "Visible cloudy or opaque region on the corneal surface in the captured image.",
+      "screening_method": "Conservative cloudiness cues on close-up corneal frames.",
+      "required_hardware": [
+        "Smartphone camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Cloudy appearance of undetermined cause — not a scar or infection diagnosis",
+        "Artifact or reflection"
+      ],
+      "cannot_conclude": [
+        "Whether corneal disease is present or absent",
+        "The underlying cause"
+      ],
+      "limitations": [
+        "OcuScan has no trained corneal-disease model; published models required slit-lamp training sets",
+        "Ordinary smartphone cameras have major limits for corneal detail",
+        "Conservative thresholds; normal result does not exclude disease"
+      ],
+      "action": "Consider professional evaluation for any persistent opacity or with vision change, pain, or light sensitivity.",
+      "recommended_action": "Consider professional evaluation for any persistent opacity or with vision change, pain, or light sensitivity.",
+      "emergency_signs": [
+        "Eye injury with cloudiness",
+        "Severe pain with light sensitivity"
+      ],
+      "emergency_flags": [
+        "Eye injury with cloudiness",
+        "Severe pain with light sensitivity"
+      ],
+      "references": [
+        "ueno2024",
+        "taki2024"
+      ],
+      "reference_ids": [
+        "ueno2024",
+        "taki2024"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "lens_opacity",
+      "finding": "lens_opacity",
+      "name": "Visible lens opacity",
+      "nameAr": "عتامة العدسة الظاهرة",
+      "category": "ocular",
+      "observable_finding": "Experimental screening for visible lens opacity appearance. Front camera is not equivalent to slit-lamp examination.",
+      "description": "Experimental screening for visible lens opacity appearance. Front camera is not equivalent to slit-lamp examination.",
+      "screening_method": "Appearance cues under supported capture method only.",
+      "required_hardware": [
+        "Smartphone camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "EXPERIMENTAL",
+      "possible_associations": [
+        "Cloudy-lens appearance in advanced cases — not a cataract diagnosis",
+        "Reflection artifact",
+        "Normal variation"
+      ],
+      "cannot_conclude": [
+        "Whether a cataract is present",
+        "Lens clarity in general"
+      ],
+      "limitations": [
+        "Experimental research module — not clinically validated",
+        "Experimental module",
+        "Only reported when capture method supports it",
+        "Cannot determine whether a cataract is present"
+      ],
+      "action": "Treat as screening only. Consider routine eye examination for vision changes.",
+      "recommended_action": "Treat as screening only. Consider routine eye examination for vision changes.",
+      "emergency_signs": [
+        "Sudden vision loss"
+      ],
+      "emergency_flags": [
+        "Sudden vision loss"
+      ],
+      "references": [
+        "ueno2024",
+        "nei-cataract"
+      ],
+      "reference_ids": [
+        "ueno2024",
+        "nei-cataract"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "blink_pattern",
+      "finding": "blink_pattern",
+      "name": "Blink pattern",
+      "nameAr": "نمط الرمش",
+      "category": "ocular",
+      "observable_finding": "Blink frequency, completeness, symmetry, and duration over a short video.",
+      "description": "Blink frequency, completeness, symmetry, and duration over a short video.",
+      "screening_method": "Short-video eyelid tracking with completeness and symmetry metrics.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Dryness",
+        "Fatigue",
+        "Screen use",
+        "Normal variation"
+      ],
+      "cannot_conclude": [
+        "Whether dry-eye disease is present"
+      ],
+      "limitations": [
+        "Validation evidence for phone-based blink grading is limited",
+        "Cannot diagnose dry-eye disease from blinking alone",
+        "Combined with symptom questionnaire only"
+      ],
+      "action": "Repeat if tired or after long screen use. Consider evaluation for persistent discomfort or vision fluctuation.",
+      "recommended_action": "Repeat if tired or after long screen use. Consider evaluation for persistent discomfort or vision fluctuation.",
+      "emergency_signs": [],
+      "emergency_flags": [],
+      "references": [
+        "nei-dryeye"
+      ],
+      "reference_ids": [
+        "nei-dryeye"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "nystagmus",
+      "finding": "nystagmus",
+      "name": "Involuntary eye movement",
+      "nameAr": "حركة العين اللاإرادية",
+      "category": "ocular",
+      "observable_finding": "Repetitive involuntary eye-movement pattern observed during tracking.",
+      "description": "Repetitive involuntary eye-movement pattern observed during tracking.",
+      "screening_method": "Gaze time-series analysis with sustained-oscillation criteria.",
+      "required_hardware": [
+        "Smartphone front camera"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Multiple ocular or neurologic causes",
+        "Normal endpoint movement",
+        "Measurement artifact"
+      ],
+      "cannot_conclude": [
+        "The cause",
+        "The type of movement disorder"
+      ],
+      "limitations": [
+        "Validation evidence for phone-based detection is limited",
+        "Cannot determine cause",
+        "Low-confidence tracking returns unable-to-assess"
+      ],
+      "action": "Repeat with head stabilized. Consider professional evaluation if persistent or with dizziness, vision change, or imbalance.",
+      "recommended_action": "Repeat with head stabilized. Consider professional evaluation if persistent or with dizziness, vision change, or imbalance.",
+      "emergency_signs": [
+        "New involuntary eye movement with severe dizziness, slurred speech, or weakness"
+      ],
+      "emergency_flags": [
+        "New involuntary eye movement with severe dizziness, slurred speech, or weakness"
+      ],
+      "references": [
+        "eyewiki-nystagmus"
+      ],
+      "reference_ids": [
+        "eyewiki-nystagmus"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "visual_acuity",
+      "finding": "visual_acuity",
+      "name": "Visual acuity",
+      "nameAr": "حدة الإبصار",
+      "category": "vision",
+      "observable_finding": "Screening measurement of distance or near visual function using randomized optotypes at a guided distance.",
+      "description": "Screening measurement of distance or near visual function using randomized optotypes at a guided distance.",
+      "screening_method": "Randomized tumbling-E style optotypes per eye with stopping rule, distance control, and repeatability checks.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "A",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Uncorrected refractive error",
+        "Under-corrected lenses",
+        "Testing-distance error"
+      ],
+      "cannot_conclude": [
+        "A glasses prescription",
+        "The cause of reduced acuity"
+      ],
+      "limitations": [
+        "Not a prescription",
+        "Screen size and distance calibration affect results",
+        "Room lighting matters",
+        "App quality varies; OcuScan retains its own validation handling"
+      ],
+      "action": "Repeat with calibrated distance and full screen brightness. Consider a full eye examination for reduced acuity.",
+      "recommended_action": "Repeat with calibrated distance and full screen brightness. Consider a full eye examination for reduced acuity.",
+      "emergency_signs": [
+        "Sudden vision loss in one or both eyes"
+      ],
+      "emergency_flags": [
+        "Sudden vision loss in one or both eyes"
+      ],
+      "references": [
+        "bastawrous2015",
+        "steren2021",
+        "perera2015",
+        "tofigh2015",
+        "cdc-vision"
+      ],
+      "reference_ids": [
+        "bastawrous2015",
+        "steren2021",
+        "perera2015",
+        "tofigh2015",
+        "cdc-vision"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "color_vision",
+      "finding": "color_vision",
+      "name": "Color discrimination",
+      "nameAr": "تمييز الألوان",
+      "category": "vision",
+      "observable_finding": "Digital color-discrimination screening across multiple color pathways.",
+      "description": "Digital color-discrimination screening across multiple color pathways.",
+      "screening_method": "Generated (non-copyrighted) plates with brightness and filter controls.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Color-vision variation",
+        "Display or lighting artifact"
+      ],
+      "cannot_conclude": [
+        "A specific color-vision disorder",
+        "Equivalence with standardized plates"
+      ],
+      "limitations": [
+        "OcuScan plates are generated, not standardized plates",
+        "Not a diagnosis of a specific color-vision disorder",
+        "Night mode, blue-light filters, and brightness alter results"
+      ],
+      "action": "Disable night mode and filters, set full brightness, and repeat. Consider formal testing if screening suggests further assessment.",
+      "recommended_action": "Disable night mode and filters, set full brightness, and repeat. Consider formal testing if screening suggests further assessment.",
+      "emergency_signs": [],
+      "emergency_flags": [],
+      "references": [
+        "ozgur2018",
+        "zhao2019",
+        "nei-color"
+      ],
+      "reference_ids": [
+        "ozgur2018",
+        "zhao2019",
+        "nei-color"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "contrast_sensitivity",
+      "finding": "contrast_sensitivity",
+      "name": "Contrast sensitivity",
+      "nameAr": "حساسية التباين",
+      "category": "vision",
+      "observable_finding": "Threshold at which faint patterns become visible under recorded display conditions.",
+      "description": "Threshold at which faint patterns become visible under recorded display conditions.",
+      "screening_method": "Contrast ladder with recorded brightness, device, and ambient lighting.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Optical or retinal variation",
+        "Display artifact"
+      ],
+      "cannot_conclude": [
+        "Comparison with printed-chart norms",
+        "The cause of reduced sensitivity"
+      ],
+      "limitations": [
+        "No invented normal ranges for uncalibrated devices",
+        "Mobile apps record different levels than printed tests"
+      ],
+      "action": "Record brightness and distance; repeat under same conditions for comparison.",
+      "recommended_action": "Record brightness and distance; repeat under same conditions for comparison.",
+      "emergency_signs": [
+        "Sudden contrast or vision change"
+      ],
+      "emergency_flags": [
+        "Sudden contrast or vision change"
+      ],
+      "references": [
+        "kingsnorth2016",
+        "elliott1990"
+      ],
+      "reference_ids": [
+        "kingsnorth2016",
+        "elliott1990"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "central_vision",
+      "finding": "central_vision",
+      "name": "Central visual distortion",
+      "nameAr": "تشوه الرؤية المركزية",
+      "category": "vision",
+      "observable_finding": "Self-reported distortion on a central fixation grid (Amsler-style), each eye separately.",
+      "description": "Self-reported distortion on a central fixation grid (Amsler-style), each eye separately.",
+      "screening_method": "Per-eye fixation grid with tappable distortion marking and repeats.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Macular or optical causes",
+        "Normal entoptic effects"
+      ],
+      "cannot_conclude": [
+        "Whether macular degeneration is present"
+      ],
+      "limitations": [
+        "Screening only; not an AMD diagnosis",
+        "Smartphone-grid equivalence with paper grids is not established by OcuScan validation"
+      ],
+      "action": "Mark distorted regions and repeat per eye. Seek prompt evaluation for new persistent distortion, especially with age-related risk factors.",
+      "recommended_action": "Mark distorted regions and repeat per eye. Seek prompt evaluation for new persistent distortion, especially with age-related risk factors.",
+      "emergency_signs": [
+        "Sudden central distortion or blind spot"
+      ],
+      "emergency_flags": [
+        "Sudden central distortion or blind spot"
+      ],
+      "references": [
+        "nei-amd"
+      ],
+      "reference_ids": [
+        "nei-amd"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "peripheral_field",
+      "finding": "peripheral_field",
+      "name": "Peripheral visual field",
+      "nameAr": "مجال الرؤية المحيطي",
+      "category": "vision",
+      "observable_finding": "Detection of faint peripheral stimuli while fixating centrally, per eye and region.",
+      "description": "Detection of faint peripheral stimuli while fixating centrally, per eye and region.",
+      "screening_method": "Per-region stimulus presentation with response, reaction-time, and miss recording.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "CURRENT",
+      "possible_associations": [
+        "Inattention",
+        "Eyelid or lens artifact",
+        "Visual pathway variation"
+      ],
+      "cannot_conclude": [
+        "Whether glaucoma is present",
+        "Comparison with clinical perimetry"
+      ],
+      "limitations": [
+        "Validation evidence for phone-based perimetry is limited",
+        "Not a glaucoma diagnosis",
+        "Screen size limits eccentricity"
+      ],
+      "action": "Repeat in a dark quiet room. Consider professional visual-field testing if deficits persist.",
+      "recommended_action": "Repeat in a dark quiet room. Consider professional visual-field testing if deficits persist.",
+      "emergency_signs": [
+        "Sudden loss of side vision"
+      ],
+      "emergency_flags": [
+        "Sudden loss of side vision"
+      ],
+      "references": [
+        "nei-glaucoma"
+      ],
+      "reference_ids": [
+        "nei-glaucoma"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "refractive_screening",
+      "finding": "refractive_screening",
+      "name": "Refractive-error screening (experimental)",
+      "nameAr": "فحص الأخطاء الانكسارية (تجريبي)",
+      "category": "vision",
+      "observable_finding": "Experimental estimate of whether distance focusing difficulty may be present, from acuity patterns.",
+      "description": "Experimental estimate of whether distance focusing difficulty may be present, from acuity patterns.",
+      "screening_method": "Distance/near acuity pattern comparison; referral prompt only.",
+      "required_hardware": [
+        "Smartphone screen"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "EXPERIMENTAL",
+      "possible_associations": [
+        "Uncorrected refractive error",
+        "Testing artifact"
+      ],
+      "cannot_conclude": [
+        "A glasses prescription",
+        "Refraction values",
+        "The cause"
+      ],
+      "limitations": [
+        "Experimental research module — not clinically validated",
+        "Never a prescription",
+        "No validated refraction system exists in this build"
+      ],
+      "action": "Consider a professional refractive assessment when the screen suggests it. Do not change glasses based on this result.",
+      "recommended_action": "Consider a professional refractive assessment when the screen suggests it. Do not change glasses based on this result.",
+      "emergency_signs": [
+        "Sudden vision loss in one or both eyes"
+      ],
+      "emergency_flags": [
+        "Sudden vision loss in one or both eyes"
+      ],
+      "references": [
+        "bastawrous2015"
+      ],
+      "reference_ids": [
+        "bastawrous2015"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "keratitis_screening",
+      "finding": "keratitis_screening",
+      "name": "Keratitis-like visible abnormality (future research)",
+      "nameAr": "علامات شبيهة بالتهاب القرنية (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: visible corneal changes compatible with infectious or immunological keratitis patterns.",
+      "description": "Future research target: visible corneal changes compatible with infectious or immunological keratitis patterns.",
+      "screening_method": "Not implemented. Research would require validated models, slit-lamp or high-quality smartphone datasets, and external validation.",
+      "required_hardware": [
+        "Not established — published models used slit-lamp and smartphone images"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Whether keratitis is present",
+        "Infectious versus immunological cause"
+      ],
+      "limitations": [
+        "No module exists in this build",
+        "Published models required specialized training data and clinical datasets"
+      ],
+      "action": "Not available. Seek professional care for eye pain, redness, light sensitivity, or vision change.",
+      "recommended_action": "Not available. Seek professional care for eye pain, redness, light sensitivity, or vision change.",
+      "emergency_signs": [
+        "Severe eye pain",
+        "Vision change with redness"
+      ],
+      "emergency_flags": [
+        "Severe eye pain",
+        "Vision change with redness"
+      ],
+      "references": [
+        "ueno2024",
+        "maehara2025"
+      ],
+      "reference_ids": [
+        "ueno2024",
+        "maehara2025"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "corneal_scar",
+      "finding": "corneal_scar",
+      "name": "Corneal scarring (future research)",
+      "nameAr": "ندبات القرنية (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: visible scarring patterns on the corneal surface.",
+      "description": "Future research target: visible scarring patterns on the corneal surface.",
+      "screening_method": "Not implemented. Research would require validated models and clinical datasets.",
+      "required_hardware": [
+        "Not established — published models used slit-lamp and smartphone images"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Whether scarring is present",
+        "The cause or age of any scar"
+      ],
+      "limitations": [
+        "No module exists in this build"
+      ],
+      "action": "Not available. Professional examination assesses scarring with slit-lamp optics.",
+      "recommended_action": "Not available. Professional examination assesses scarring with slit-lamp optics.",
+      "emergency_signs": [
+        "Eye injury with cloudiness"
+      ],
+      "emergency_flags": [
+        "Eye injury with cloudiness"
+      ],
+      "references": [
+        "ueno2024",
+        "taki2024"
+      ],
+      "reference_ids": [
+        "ueno2024",
+        "taki2024"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "ocular_surface_tumor",
+      "finding": "ocular_surface_tumor",
+      "name": "Ocular-surface tumor appearance (future research)",
+      "nameAr": "مظهر ورم سطح العين (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: atypical surface-lesion appearance.",
+      "description": "Future research target: atypical surface-lesion appearance.",
+      "screening_method": "Not implemented. Any future work would require specialist datasets and oversight.",
+      "required_hardware": [
+        "Not established"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Whether any lesion is present",
+        "Benign versus other causes"
+      ],
+      "limitations": [
+        "No module exists in this build",
+        "Surface lesions require professional examination"
+      ],
+      "action": "Not available. Any new or changing surface growth warrants professional evaluation.",
+      "recommended_action": "Not available. Any new or changing surface growth warrants professional evaluation.",
+      "emergency_signs": [
+        "Rapidly changing surface growth"
+      ],
+      "emergency_flags": [
+        "Rapidly changing surface growth"
+      ],
+      "references": [
+        "ueno2024"
+      ],
+      "reference_ids": [
+        "ueno2024"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "angle_closure_signs",
+      "finding": "angle_closure_signs",
+      "name": "Angle-closure-related visible findings (future research)",
+      "nameAr": "علامات مرتبطة بضيق الزاوية (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: visible anterior-segment signs studied alongside acute angle-closure events.",
+      "description": "Future research target: visible anterior-segment signs studied alongside acute angle-closure events.",
+      "screening_method": "Not implemented. Angle assessment requires specialist examination.",
+      "required_hardware": [
+        "Not established — published work used slit-lamp and smartphone images"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Angle status",
+        "Eye pressure",
+        "Whether an attack is occurring"
+      ],
+      "limitations": [
+        "No module exists in this build",
+        "A phone camera cannot measure angles or pressure"
+      ],
+      "action": "Not available. Sudden severe eye pain with nausea, red eye, or blurred vision needs emergency care.",
+      "recommended_action": "Not available. Sudden severe eye pain with nausea, red eye, or blurred vision needs emergency care.",
+      "emergency_signs": [
+        "Sudden severe eye pain with nausea",
+        "Red eye with blurred vision"
+      ],
+      "emergency_flags": [
+        "Sudden severe eye pain with nausea",
+        "Red eye with blurred vision"
+      ],
+      "references": [
+        "maehara2025"
+      ],
+      "reference_ids": [
+        "maehara2025"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "bullous_keratopathy",
+      "finding": "bullous_keratopathy",
+      "name": "Bullous keratopathy appearance (future research)",
+      "nameAr": "مظهر اعتلال القرنية الفقاعي (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: microcystic corneal appearance patterns.",
+      "description": "Future research target: microcystic corneal appearance patterns.",
+      "screening_method": "Not implemented. Research would require validated models and clinical datasets.",
+      "required_hardware": [
+        "Not established — published models used slit-lamp and smartphone images"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Whether the condition is present"
+      ],
+      "limitations": [
+        "No module exists in this build",
+        "Fine surface detail exceeds ordinary phone resolution"
+      ],
+      "action": "Not available. Persistent pain, tearing, or blurred vision warrants professional evaluation.",
+      "recommended_action": "Not available. Persistent pain, tearing, or blurred vision warrants professional evaluation.",
+      "emergency_signs": [
+        "Severe eye pain with vision change"
+      ],
+      "emergency_flags": [
+        "Severe eye pain with vision change"
+      ],
+      "references": [
+        "ueno2024"
+      ],
+      "reference_ids": [
+        "ueno2024"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "corneal_deposits",
+      "finding": "corneal_deposits",
+      "name": "Corneal deposits (future research)",
+      "nameAr": "ترسبات القرنية (بحث مستقبلي)",
+      "category": "ocular",
+      "observable_finding": "Future research target: visible crystalline or pigmentary deposits.",
+      "description": "Future research target: visible crystalline or pigmentary deposits.",
+      "screening_method": "Not implemented. Research would require validated models and clinical datasets.",
+      "required_hardware": [
+        "Not established — published models used slit-lamp and smartphone images"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Whether deposits are present",
+        "Their composition or cause"
+      ],
+      "limitations": [
+        "No module exists in this build"
+      ],
+      "action": "Not available. Professional slit-lamp examination assesses deposits.",
+      "recommended_action": "Not available. Professional slit-lamp examination assesses deposits.",
+      "emergency_signs": [],
+      "emergency_flags": [],
+      "references": [
+        "ueno2024"
+      ],
+      "reference_ids": [
+        "ueno2024"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "facial_neuro_research",
+      "finding": "facial_neuro_research",
+      "name": "Facial-movement research patterns (future research)",
+      "nameAr": "أنماط حركة الوجه البحثية (بحث مستقبلي)",
+      "category": "facial",
+      "observable_finding": "Future research target: standardized facial-movement patterns studied in neurological research (for example masked facial expression or asymmetric weakness patterns).",
+      "description": "Future research target: standardized facial-movement patterns studied in neurological research (for example masked facial expression or asymmetric weakness patterns).",
+      "screening_method": "Not implemented beyond asymmetry screening. Would require standardized protocols, temporal analysis, and clinical datasets.",
+      "required_hardware": [
+        "Smartphone camera (research protocols vary; some studies used depth cameras)"
+      ],
+      "evidence_tier": "B",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — reports would state abnormal facial movement pattern observed, never a neurological condition"
+      ],
+      "cannot_conclude": [
+        "Whether any neurological condition is present",
+        "Any specific condition"
+      ],
+      "limitations": [
+        "Literature shows heterogeneity and needs standardization and validation",
+        "OcuScan reports movement patterns only"
+      ],
+      "action": "Not available. New persistent facial weakness warrants professional evaluation; sudden weakness needs emergency care.",
+      "recommended_action": "Not available. New persistent facial weakness warrants professional evaluation; sudden weakness needs emergency care.",
+      "emergency_signs": [
+        "Sudden facial weakness with speech or limb changes"
+      ],
+      "emergency_flags": [
+        "Sudden facial weakness with speech or limb changes"
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021",
+        "oliveira2025"
+      ],
+      "reference_ids": [
+        "yoonesi2025",
+        "taeger2021",
+        "oliveira2025"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "systemic_phenotypes",
+      "finding": "systemic_phenotypes",
+      "name": "Systemic-condition facial phenotypes (future research)",
+      "nameAr": "السمات الوجهية للحالات الجهازية (بحث مستقبلي)",
+      "category": "systemic",
+      "observable_finding": "Future research catalog for conditions with published facial-analysis research. No inference of laboratory values from faces.",
+      "description": "Future research catalog for conditions with published facial-analysis research. No inference of laboratory values from faces.",
+      "screening_method": "Not implemented. Any future model would need its own validated model and reference data.",
+      "required_hardware": [
+        "Not established"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "FUTURE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Blood values",
+        "Hormone concentrations",
+        "Liver function",
+        "Any systemic condition"
+      ],
+      "limitations": [
+        "No module exists in this build",
+        "Faces do not provide laboratory values without validated models and reference data"
+      ],
+      "action": "Not available. Systemic symptoms require professional medical evaluation with appropriate tests.",
+      "recommended_action": "Not available. Systemic symptoms require professional medical evaluation with appropriate tests.",
+      "emergency_signs": [],
+      "emergency_flags": [],
+      "references": [
+        "yoonesi2025"
+      ],
+      "reference_ids": [
+        "yoonesi2025"
+      ],
+      "last_reviewed": "2026-09-25"
+    },
+    {
+      "id": "retinal_future",
+      "finding": "retinal_future",
+      "name": "Retinal screening (future hardware)",
+      "nameAr": "فحص الشبكية (عتاد مستقبلي)",
+      "category": "retinal",
+      "observable_finding": "Future research track requiring an optical retinal attachment. Ordinary front-camera images are rejected for retinal analysis.",
+      "description": "Future research track requiring an optical retinal attachment. Ordinary front-camera images are rejected for retinal analysis.",
+      "screening_method": "Future: retinal capture, retinal quality gate, accepted/rejected, retinal analyzer, screening finding. Not implemented.",
+      "required_hardware": [
+        "Optical retinal attachment with controlled illumination (not present)"
+      ],
+      "evidence_tier": "C",
+      "implementation_status": "NOT_SUITABLE_FOR_CURRENT_HARDWARE",
+      "possible_associations": [
+        "Research only — no screening associations claimed"
+      ],
+      "cannot_conclude": [
+        "Any retinal finding from a selfie image"
+      ],
+      "limitations": [
+        "Normal smartphone cameras cannot provide equivalent retinal imaging",
+        "No retinal analyzer exists in this build"
+      ],
+      "action": "Not available. Retinal conditions are assessed by professionals with retinal imaging.",
+      "recommended_action": "Not available. Retinal conditions are assessed by professionals with retinal imaging.",
+      "emergency_signs": [
+        "Sudden vision loss",
+        "Sudden shower of floaters with flashes"
+      ],
+      "emergency_flags": [
+        "Sudden vision loss",
+        "Sudden shower of floaters with flashes"
+      ],
+      "references": [
+        "savoy2024",
+        "peekretina2016",
+        "nei-dr"
+      ],
+      "reference_ids": [
+        "savoy2024",
+        "peekretina2016",
+        "nei-dr"
+      ],
+      "last_reviewed": "2026-09-25"
+    }
+  ]
+}

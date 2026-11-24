@@ -1,0 +1,2020 @@
+{
+  "_note": "OcuScan master medical capability catalog (v0.7). Statuses: CURRENT (in app now), RESEARCH-SUPPORTED, EXPERIMENTAL, FUTURE, HARDWARE-REQUIRED, UNSUPPORTED. Validation: NOT IMPLEMENTED everywhere unless stated (no clinical validation exists). References are curated evidence IDs; empty means no precedent curated. Never a diagnosis list.",
+  "version": "0.7",
+  "capabilities": [
+    {
+      "id": "facial_asymmetry",
+      "name": "Facial asymmetry",
+      "name_ar": "تماثل الوجه",
+      "category": "face",
+      "observable_finding": "Left/right facial proportion difference at rest.",
+      "condition_or_association": "Symmetry variations have many causes; none determined here.",
+      "modality": "image",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "facial_movement",
+      "name": "Facial movement asymmetry",
+      "name_ar": "تماثل حركة الوجه",
+      "category": "face",
+      "observable_finding": "Left/right movement difference across guided expressions.",
+      "condition_or_association": "Movement asymmetry has many causes; none determined here.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results.",
+        "Expressions must be performed as guided."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "brow_movement",
+      "name": "Eyebrow movement asymmetry",
+      "name_ar": "تماثل حركة الحاجبين",
+      "category": "face",
+      "observable_finding": "Left/right brow-raise amplitude difference.",
+      "condition_or_association": "Brow asymmetry has many causes; none determined here.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "eyelid_movement",
+      "name": "Eyelid movement asymmetry",
+      "name_ar": "تماثل حركة الجفنين",
+      "category": "face",
+      "observable_finding": "Left/right eyelid-opening difference.",
+      "condition_or_association": "Possible association: ptosis patterns (never a ptosis diagnosis).",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "aoa-ptosis"
+      ]
+    },
+    {
+      "id": "mouth_movement",
+      "name": "Mouth movement asymmetry",
+      "name_ar": "تماثل حركة الفم",
+      "category": "face",
+      "observable_finding": "Left/right smile amplitude difference.",
+      "condition_or_association": "Mouth asymmetry has many causes; none determined here.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "cheek_movement",
+      "name": "Cheek movement asymmetry",
+      "name_ar": "تماثل حركة الخدين",
+      "category": "face",
+      "observable_finding": "Left/right cheek-puff amplitude difference.",
+      "condition_or_association": "Cheek asymmetry has many causes; none determined here.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "reduced_expression",
+      "name": "Reduced facial-expression dynamics",
+      "name_ar": "انخفاض ديناميكية تعابير الوجه",
+      "category": "face",
+      "observable_finding": "Low movement amplitude across expressions vs prototype reference.",
+      "condition_or_association": "Reduced dynamics occur in many contexts; pattern reported only against a prototype reference distribution, never as a neurological finding.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results.",
+        "Reference distribution is prototype-only, not normative."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021",
+        "oliveira2025"
+      ]
+    },
+    {
+      "id": "abnormal_movement",
+      "name": "Abnormal facial movement pattern",
+      "name_ar": "نمط حركة وجهية غير طبيعية",
+      "category": "face",
+      "observable_finding": "Movement pattern outside the prototype reference distribution.",
+      "condition_or_association": "Reported as a pattern only; cause undetermined; needs research validation.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "involuntary_movement",
+      "name": "Involuntary facial movement",
+      "name_ar": "حركة وجهية لا إرادية",
+      "category": "face",
+      "observable_finding": "Repetitive movement detected across frames where trackable.",
+      "condition_or_association": "Many causes; single-session phone tracking cannot characterize involuntary movements reliably.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025"
+      ]
+    },
+    {
+      "id": "movement_timing",
+      "name": "Facial movement timing",
+      "name_ar": "توقيت حركة الوجه",
+      "category": "face",
+      "observable_finding": "Inter-expression timing and per-region response order.",
+      "condition_or_association": "Timing described only; no neurological interpretation.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Single-session phone tracking is approximate.",
+        "Cannot determine the cause of any asymmetry.",
+        "Head pose, lighting, and occlusion change results."
+      ],
+      "failure_conditions": [
+        "Head yaw beyond tolerance.",
+        "Partial occlusion (hair, hands, mask).",
+        "Motion blur or poor lighting.",
+        "Multiple faces in frame."
+      ],
+      "references": [
+        "yoonesi2025",
+        "taeger2021"
+      ]
+    },
+    {
+      "id": "eye_localization",
+      "name": "Eye localization",
+      "name_ar": "تحديد العينين",
+      "category": "eye",
+      "observable_finding": "Left/right eye positions in the frame.",
+      "condition_or_association": "Positions feed downstream measurements; not a finding alone.",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "arnold2018",
+        "aoa-strabismus"
+      ]
+    },
+    {
+      "id": "eye_alignment",
+      "name": "Eye alignment",
+      "name_ar": "محاذاة العينين",
+      "category": "eye",
+      "observable_finding": "Cover/uncover movement observation.",
+      "condition_or_association": "Possible association: strabismus patterns (never a strabismus diagnosis).",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Cover-shift deltas not tracked in this build; observer-reported."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "arnold2018",
+        "aoa-strabismus",
+        "aapos-strabismus"
+      ]
+    },
+    {
+      "id": "cover_movement",
+      "name": "Cover/uncover movement",
+      "name_ar": "حركة التغطية/الكشف",
+      "category": "eye",
+      "observable_finding": "Observed eye movement when the fellow eye is covered.",
+      "condition_or_association": "Records movement only; does not diagnose a cause.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "arnold2018",
+        "aoa-strabismus"
+      ]
+    },
+    {
+      "id": "gaze_direction",
+      "name": "Gaze direction",
+      "name_ar": "اتجاه النظر",
+      "category": "eye",
+      "observable_finding": "Estimated gaze side from landmarks (coarse).",
+      "condition_or_association": "Coarse estimate only; not a gaze-tracking diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": []
+    },
+    {
+      "id": "ocular_symmetry",
+      "name": "Ocular symmetry",
+      "name_ar": "تماثل العينين",
+      "category": "eye",
+      "observable_finding": "Left/right eye-region appearance comparison.",
+      "condition_or_association": "Symmetry variations have many causes; none determined here.",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "aoa-strabismus"
+      ]
+    },
+    {
+      "id": "eyelid_opening",
+      "name": "Eyelid opening",
+      "name_ar": "فتحة الجفن",
+      "category": "eye",
+      "observable_finding": "Relative left/right eyelid-opening difference.",
+      "condition_or_association": "Possible association: ptosis patterns (never a ptosis diagnosis).",
+      "modality": "image",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Brow position and gaze affect the estimate."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "aoa-ptosis"
+      ]
+    },
+    {
+      "id": "blink_completeness",
+      "name": "Blink completeness",
+      "name_ar": "اكتمال الرمش",
+      "category": "eye",
+      "observable_finding": "Blink rate from tracked openness series (needs 30+ samples).",
+      "condition_or_association": "Rate only; filler data never used — insufficient samples report unable.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Needs sustained tracked openness series."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "nei-dryeye"
+      ]
+    },
+    {
+      "id": "nystagmus_movement",
+      "name": "Nystagmus-like movement",
+      "name_ar": "حركة شبيهة بالرأرأة",
+      "category": "eye",
+      "observable_finding": "Oscillation analysis requires gaze-position tracking absent from this build.",
+      "condition_or_association": "Not measured in this build; reported as unable.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Gaze tracking unavailable in this build."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "eyewiki-nystagmus"
+      ]
+    },
+    {
+      "id": "pupil_asymmetry",
+      "name": "Relative pupil asymmetry",
+      "name_ar": "تفاوت الحدقتين النسبي",
+      "category": "eye",
+      "observable_finding": "Left/right pupil-appearance difference (relative, never millimeters).",
+      "condition_or_association": "Possible association: anisocoria (never determines cause).",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Needs segmented pupil regions, not openness estimates."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "neice2021",
+        "barry2023",
+        "eyewiki-anisocoria"
+      ]
+    },
+    {
+      "id": "pupil_temporal",
+      "name": "Temporal pupil behavior",
+      "name_ar": "السلوك الزمني للحدقة",
+      "category": "eye",
+      "observable_finding": "Pupil-appearance stability across frames.",
+      "condition_or_association": "Stability described only; no response claims.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "maxin2023"
+      ]
+    },
+    {
+      "id": "pupil_boundary",
+      "name": "Pupil boundary quality",
+      "name_ar": "جودة حدود الحدقة",
+      "category": "eye",
+      "observable_finding": "Whether pupil regions segment cleanly enough to measure.",
+      "condition_or_association": "Quality gate only; not a finding.",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "neice2021",
+        "barry2023"
+      ]
+    },
+    {
+      "id": "pupil_stability",
+      "name": "Pupil stability",
+      "name_ar": "ثبات الحدقة",
+      "category": "eye",
+      "observable_finding": "Frame-to-frame pupil-appearance consistency.",
+      "condition_or_association": "Consistency described only.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "maxin2023"
+      ]
+    },
+    {
+      "id": "pupil_response",
+      "name": "Pupil light response",
+      "name_ar": "استجابة الحدقة للضوء",
+      "category": "eye",
+      "observable_finding": "Disabled without a controlled safe light stimulus.",
+      "condition_or_association": "Reports unable-to-assess rather than guessing. No flash ever used.",
+      "modality": "video",
+      "hardware_required": [
+        "Front camera"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Safe stimulus hardware absent."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "maxin2023",
+        "eyewiki-anisocoria"
+      ]
+    },
+    {
+      "id": "pterygium_growth",
+      "name": "Pterygium-like growth appearance",
+      "name_ar": "مظهر نمو شبيه بالظفرة",
+      "category": "eye",
+      "observable_finding": "Close-up appearance description; severity never graded, causes never assigned.",
+      "condition_or_association": "Possible association: pterygium-like appearance (never a pterygium diagnosis).",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Phone resolution; specialized training data absent."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "eyewiki-pterygium"
+      ]
+    },
+    {
+      "id": "conjunctival_redness",
+      "name": "Conjunctival redness",
+      "name_ar": "احمرار الملتحمة",
+      "category": "eye",
+      "observable_finding": "Measured red-pixel spread + distribution.",
+      "condition_or_association": "Redness is nonspecific; never mapped to one disease.",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "White balance and lighting dominate readings."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "nei-dryeye"
+      ]
+    },
+    {
+      "id": "scleral_discoloration",
+      "name": "Scleral discoloration",
+      "name_ar": "تلون الصلبة",
+      "category": "eye",
+      "observable_finding": "Calibrated yellowness index (valid calibration only).",
+      "condition_or_association": "Possible association: jaundice patterns (never a liver diagnosis).",
+      "modality": "image",
+      "hardware_required": [
+        "Front or rear camera"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause.",
+        "Requires neutral light + passed color calibration."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "taylor2017",
+        "aune2020",
+        "medlineplus-jaundice"
+      ]
+    },
+    {
+      "id": "corneal_opacity",
+      "name": "Visible corneal opacity",
+      "name_ar": "عتامة القرنية الظاهرة",
+      "category": "eye",
+      "observable_finding": "Cloudiness cues described conservatively at phone resolution.",
+      "condition_or_association": "No opacity grading, no cause assignment.",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "ueno2024",
+        "taki2024"
+      ]
+    },
+    {
+      "id": "corneal_scar",
+      "name": "Corneal scar-like appearance",
+      "name_ar": "مظهر شبيه بندبة القرنية",
+      "category": "eye",
+      "observable_finding": "Scar-like cues described conservatively.",
+      "condition_or_association": "No severity, no cause, no keratitis inference.",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "ueno2024",
+        "taki2024"
+      ]
+    },
+    {
+      "id": "surface_lesion",
+      "name": "Ocular-surface lesion appearance",
+      "name_ar": "مظهر آفة سطح العين",
+      "category": "eye",
+      "observable_finding": "Lesion-like appearance described conservatively.",
+      "condition_or_association": "Never characterizes the lesion type or cause.",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "ueno2024"
+      ]
+    },
+    {
+      "id": "keratitis_like",
+      "name": "Keratitis-like appearance",
+      "name_ar": "مظهر شبيه بالتهاب القرنية",
+      "category": "eye",
+      "observable_finding": "Research appearance track only; specialized data absent.",
+      "condition_or_association": "Never infers keratitis or any infection.",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "ueno2024",
+        "maehara2025"
+      ]
+    },
+    {
+      "id": "lens_opacity_appearance",
+      "name": "Lens-opacity appearance",
+      "name_ar": "مظهر عتامة العدسة",
+      "category": "eye",
+      "observable_finding": "Needs a supported close-up capture method absent from this build.",
+      "condition_or_association": "Any future output is a referral prompt, never a cataract finding.",
+      "modality": "image",
+      "hardware_required": [
+        "Supported close-up method (absent)"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "ueno2024",
+        "nei-cataract"
+      ]
+    },
+    {
+      "id": "other_anterior",
+      "name": "Other anterior-eye appearance",
+      "name_ar": "مظهر آخر للقطعة الأمامية",
+      "category": "eye",
+      "observable_finding": "Catch-all research appearance track (angle/deposit/bullous precedents).",
+      "condition_or_association": "Described only; never characterized.",
+      "modality": "image",
+      "hardware_required": [
+        "Rear camera close-up preferred"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Phone resolution limits small-feature precision.",
+        "Gaze, glasses glare, and lighting change results.",
+        "No finding names a disease or its cause."
+      ],
+      "failure_conditions": [
+        "Eyes not visible or closed.",
+        "Strong glasses reflections.",
+        "Face too small, too large, or angled.",
+        "Tracking lost (motion, blur, darkness)."
+      ],
+      "references": [
+        "maehara2025",
+        "ueno2024"
+      ]
+    },
+    {
+      "id": "distance_acuity",
+      "name": "Distance visual acuity",
+      "name_ar": "حدة البصر للبعد",
+      "category": "vision",
+      "observable_finding": "Adaptive-staircase threshold per eye (logMAR ladder).",
+      "condition_or_association": "Screening measurement with conditions; never a prescription.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, 3 m"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "A",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "bastawrous2015",
+        "steren2021",
+        "perera2015",
+        "tofigh2015",
+        "cdc-vision"
+      ]
+    },
+    {
+      "id": "near_acuity",
+      "name": "Near visual acuity",
+      "name_ar": "حدة البصر للقرب",
+      "category": "vision",
+      "observable_finding": "Comfortable print size at ~40 cm per eye.",
+      "condition_or_association": "Screening measurement; never a prescription.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, ~40 cm"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "bastawrous2015",
+        "perera2015"
+      ]
+    },
+    {
+      "id": "color_discrimination",
+      "name": "Color discrimination",
+      "name_ar": "تمييز الألوان",
+      "category": "vision",
+      "observable_finding": "Generated-plate error score by difficulty and axis.",
+      "condition_or_association": "Screens color discrimination; never names a color-vision disorder.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, full brightness, filters off"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "ozgur2018",
+        "zhao2019",
+        "nei-color"
+      ]
+    },
+    {
+      "id": "contrast_sensitivity",
+      "name": "Contrast sensitivity",
+      "name_ar": "حساسية التباين",
+      "category": "vision",
+      "observable_finding": "Adaptive contrast threshold with response sequence.",
+      "condition_or_association": "Condition-bound threshold; no norms for uncalibrated displays.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, recorded brightness"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "kingsnorth2016",
+        "elliott1990"
+      ]
+    },
+    {
+      "id": "central_distortion",
+      "name": "Central visual distortion",
+      "name_ar": "تشوه الرؤية المركزية",
+      "category": "vision",
+      "observable_finding": "Self-marked grid distortions per eye with spatial records.",
+      "condition_or_association": "Self-reported; never an AMD diagnosis.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, 30 cm fixation"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "nei-amd"
+      ]
+    },
+    {
+      "id": "peripheral_field",
+      "name": "Peripheral visual field",
+      "name_ar": "المجال البصري المحيطي",
+      "category": "vision",
+      "observable_finding": "Seen/missed/false-positive/reaction-time record per region.",
+      "condition_or_association": "Screening experiment; never clinical perimetry.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen, dark quiet room"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "nei-glaucoma"
+      ]
+    },
+    {
+      "id": "cover_test",
+      "name": "Cover/uncover observation",
+      "name_ar": "ملاحظة التغطية/الكشف",
+      "category": "vision",
+      "observable_finding": "Observer-reported movement during guided cover sequence.",
+      "condition_or_association": "Records movement only; never diagnoses a cause.",
+      "modality": "screen",
+      "hardware_required": [
+        "Fixation target, ~1 m"
+      ],
+      "implementation_status": "CURRENT",
+      "evidence_status": "B",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "arnold2018",
+        "aoa-strabismus"
+      ]
+    },
+    {
+      "id": "binocular_coordination",
+      "name": "Binocular coordination",
+      "name_ar": "التنسيق الثنائي",
+      "category": "vision",
+      "observable_finding": "Both-eyes acuity runs; true stereopsis needs dichoptic presentation phones lack.",
+      "condition_or_association": "Experimental; no clinical stereopsis claim until validated.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "bastawrous2015"
+      ]
+    },
+    {
+      "id": "refractive_screening",
+      "name": "Experimental refractive screening",
+      "name_ar": "الفحص الانكساري التجريبي",
+      "category": "vision",
+      "observable_finding": "Distance/near pattern flag; referral prompt only.",
+      "condition_or_association": "Never a prescription; tendencies only.",
+      "modality": "screen",
+      "hardware_required": [
+        "Phone screen"
+      ],
+      "implementation_status": "EXPERIMENTAL",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Screening measurement, not a prescription and not a diagnosis.",
+        "Conditions (distance, screen, lighting) maintained by operator."
+      ],
+      "failure_conditions": [
+        "Unverified test distance.",
+        "System text scaling, night mode, or color filters active.",
+        "Poor lighting or glare on screen."
+      ],
+      "references": [
+        "bastawrous2015"
+      ]
+    },
+    {
+      "id": "retinal_dr",
+      "name": "Diabetic retinopathy screening",
+      "name_ar": "فحص اعتلال الشبكية السكري",
+      "category": "retina",
+      "observable_finding": "Future fundus module output (possible finding only).",
+      "condition_or_association": "Requires validated attachment + model; published performance never transfers.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": [
+        "nei-dr",
+        "savoy2024",
+        "peekretina2016"
+      ]
+    },
+    {
+      "id": "retinal_dme",
+      "name": "Diabetic macular edema screening",
+      "name_ar": "فحص وذمة البقعة السكرية",
+      "category": "retina",
+      "observable_finding": "Future fundus module output (possible finding only).",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": [
+        "nei-dr",
+        "savoy2024"
+      ]
+    },
+    {
+      "id": "retinal_amd",
+      "name": "AMD screening",
+      "name_ar": "فحص التنكس البقعي",
+      "category": "retina",
+      "observable_finding": "Future fundus module output (possible finding only).",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": [
+        "nei-amd",
+        "savoy2024"
+      ]
+    },
+    {
+      "id": "retinal_glaucoma",
+      "name": "Glaucoma-related retinal findings",
+      "name_ar": "اكتشافات الشبكية للزرق",
+      "category": "retina",
+      "observable_finding": "Future fundus module output (possible finding only).",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": [
+        "nei-glaucoma",
+        "savoy2024"
+      ]
+    },
+    {
+      "id": "retinal_vascular",
+      "name": "Retinal vascular abnormalities",
+      "name_ar": "تشوهات الأوعية الشبكية",
+      "category": "retina",
+      "observable_finding": "Future fundus module output (possible finding only).",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": [
+        "nei-dr"
+      ]
+    },
+    {
+      "id": "retinal_hypertensive",
+      "name": "Hypertensive retinopathy",
+      "name_ar": "اعتلال الشبكية بفرط الضغط",
+      "category": "retina",
+      "observable_finding": "No precedent references curated; direction only.",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": []
+    },
+    {
+      "id": "retinal_rvo",
+      "name": "Retinal vein occlusion",
+      "name_ar": "انسداد الوريد الشبكي",
+      "category": "retina",
+      "observable_finding": "No precedent references curated; direction only.",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": []
+    },
+    {
+      "id": "retinal_rop",
+      "name": "Retinopathy of prematurity",
+      "name_ar": "اعتلال شبكية الخدج",
+      "category": "retina",
+      "observable_finding": "No precedent references curated; direction only. Pediatric use would need dedicated safety review.",
+      "condition_or_association": "Requires validated attachment + model.",
+      "modality": "fundus",
+      "hardware_required": [
+        "Rear camera + optical attachment (absent)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Requires fundus optics no phone provides.",
+        "No retinal analysis runs on ordinary face images."
+      ],
+      "failure_conditions": [
+        "No retinal attachment present."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_acne",
+      "name": "Acne (future dermatology research)",
+      "name_ar": "حب الشباب (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Dermatology is separate from ocular OcuScan; catalog direction only.",
+      "condition_or_association": "Never a current diagnosis; future research only.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_rosacea",
+      "name": "Rosacea (future dermatology research)",
+      "name_ar": "الوردية (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Catalog direction only.",
+      "condition_or_association": "Never a current diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_eczema",
+      "name": "Eczema (future dermatology research)",
+      "name_ar": "الأكزيما (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Catalog direction only.",
+      "condition_or_association": "Never a current diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_psoriasis",
+      "name": "Psoriasis (future dermatology research)",
+      "name_ar": "الصدفية (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Catalog direction only.",
+      "condition_or_association": "Never a current diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_vitiligo",
+      "name": "Vitiligo (future dermatology research)",
+      "name_ar": "البهاق (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Catalog direction only.",
+      "condition_or_association": "Never a current diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "low",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "skin_lesion",
+      "name": "Suspicious skin lesions (future dermatology research)",
+      "name_ar": "آفات جلدية مشبوهة (بحث جلدي مستقبلي)",
+      "category": "skin",
+      "observable_finding": "Catalog direction only; suspicious lesions need professional evaluation, never app triage.",
+      "condition_or_association": "Never a current diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Phone camera (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "Not an ocular feature; separate module required."
+      ],
+      "failure_conditions": [
+        "No protocol defined."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_down",
+      "name": "Down syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة داون (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Facial phenotype systems need specialist datasets; never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_noonan",
+      "name": "Noonan syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة نونان (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_turner",
+      "name": "Turner syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة تيرنر (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_22q11",
+      "name": "22q11.2 deletion phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لحذف 22q11.2 (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_williams",
+      "name": "Williams syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة ويليامز (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_cdl",
+      "name": "Cornelia de Lange phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة كورنيليا دي لانج (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_kabuki",
+      "name": "Kabuki syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة كابوكي (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_fragilex",
+      "name": "Fragile X phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري للكروموسوم X الهش (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_angelman",
+      "name": "Angelman syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة أنجلمان (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_crouzon",
+      "name": "Crouzon syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة كروزون (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_kbg",
+      "name": "KBG syndrome phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة KBG (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "gen_mowatwilson",
+      "name": "Mowat-Wilson phenotype (future research catalog)",
+      "name_ar": "النمط الظاهري لمتلازمة موات ويلسون (كتالوج بحثي مستقبلي)",
+      "category": "genetic",
+      "observable_finding": "Educational/research cataloging only.",
+      "condition_or_association": "Never definitive genetic diagnosis.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "endo_acromegaly",
+      "name": "Acromegaly-related facial phenotype (future)",
+      "name_ar": "النمط الوجهي لضخامة الأطراف (مستقبلي)",
+      "category": "endocrine",
+      "observable_finding": "Catalog direction only; face photos never replace endocrine testing.",
+      "condition_or_association": "Never infers hormone concentrations.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "endo_cushing",
+      "name": "Cushing-related facial phenotype (future)",
+      "name_ar": "النمط الوجهي لكوشينغ (مستقبلي)",
+      "category": "endocrine",
+      "observable_finding": "Catalog direction only; face photos never replace endocrine testing.",
+      "condition_or_association": "Never infers hormone concentrations.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    },
+    {
+      "id": "endo_other",
+      "name": "Other endocrine facial phenotypes (future)",
+      "name_ar": "أنماط وجهية صماء أخرى (مستقبلي)",
+      "category": "endocrine",
+      "observable_finding": "Catalog direction only.",
+      "condition_or_association": "Never infers hormone concentrations.",
+      "modality": "image",
+      "hardware_required": [
+        "Undefined (future protocol)"
+      ],
+      "implementation_status": "FUTURE",
+      "evidence_status": "C",
+      "validation_status": "NOT IMPLEMENTED",
+      "risk_level": "medium",
+      "clinical_status": "research-only",
+      "limitations": [
+        "No data, no protocol, no validation."
+      ],
+      "failure_conditions": [
+        "Any face image input."
+      ],
+      "references": []
+    }
+  ]
+}
